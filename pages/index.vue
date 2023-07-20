@@ -5,6 +5,8 @@
       <h1 id="game-title">GALAXY RAIDERS</h1>
       <button><router-link class="menu-button" to="/game">Iniciar partida</router-link></button>
       <button><router-link class="menu-button" to="/leaderboard">Visualizar placar</router-link></button>
+      <!-- Implementamos o encerramento do jogo como o redirecionamento para uma página em branco,
+      pois métodos de fechar abas da WEB foram descontinuados por razões de segurança -->
       <button><router-link class="menu-button" to="/exit">Fechar jogo</router-link></button>
     </div>
   </div>

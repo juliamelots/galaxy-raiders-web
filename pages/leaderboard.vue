@@ -25,13 +25,12 @@
 </template>
 
 <script>
-import JSON from '~/assets/Leaderboard.json'
+// Utilizamos mock de leaderboard: arquivo hardcoded que não
+// é atualizado pela API, pois foge do escopo do EP (exclusivo da parte WEB)
+import JSON from '~/score/Leaderboard.json'
+
 export default{
-    data(){
-        return{
-            board: JSON
-        }
-    }
+  data(){ return{ board: JSON } }
 }
 </script>
 
